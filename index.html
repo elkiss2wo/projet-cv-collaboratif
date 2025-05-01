@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'Accueil - Projet CV Collaboratif</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Projet CV Collaboratif</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 4px solid #264653;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .participants ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .participants li {
+      margin: 1rem 0;
+    }
+
+    .participants a {
+      text-decoration: none;
+      color: #264653;
+      font-weight: bold;
+      background-color: #e9c46a;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .participants a:hover {
+      background-color: #f4a261;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2a9d8f;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenue sur mon Projet de CV Collaboratif</h1>
-        <a href="elkiss/cv.html" target="_blank">Voir le CV de BELEM Abdoulaye</a>
-    </div>
+  <header>
+    <h1>Bienvenue sur le site des CV collaboratifs</h1>
+    <p>Chaque participant a créé sa propre page pour présenter son parcours.</p>
+  </header>
+
+  <main>
+    <section class="participants">
+      <h2>Liste des participants</h2>
+      <ul>
+        <li><a href="elkiss/cv.html">BELEM Abdoulaye</a></li>
+        <li><a href="salouka/cv.html">SALOUKA Yacouba</a></li>
+        <li><a href="congo/cv.html">CONGO Mahamoudou </a></li>
+        <li><a href="traore/cv.html">TRAORE Diakalya </a></li>
+        <li><a href="kagambega/cv.html">KAGAMBEGA Rasmane </a></li>
+        <li><a href="wendkuni/cv.html">WEND KUNI Parfait </a></li>
+        <!-- Ajouter d'autres liens ici -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Projet CV Collaboratif</p>
+  </footer>
 </body>
 </html>
